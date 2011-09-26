@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		3509D9E6142DD595001B0C02 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509D9E5142DD595001B0C02 /* ListViewController.m */; };
+		3509D9EB142DD60F001B0C02 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3509D9EA142DD60F001B0C02 /* ListView.xib */; };
+		3509DA15142DD95E001B0C02 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3509DA14142DD95E001B0C02 /* libsqlite3.0.dylib */; };
+		3555B632142DDBDD000EF22D /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3555B631142DDBDD000EF22D /* AddView.xib */; };
+		3555B635142DDBEA000EF22D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B634142DDBEA000EF22D /* AddViewController.m */; };
+		3555B64C142DDD9C000EF22D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B647142DDD9C000EF22D /* FMDatabase.m */; };
+		3555B64D142DDD9C000EF22D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B649142DDD9C000EF22D /* FMDatabaseAdditions.m */; };
+		3555B64E142DDD9C000EF22D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B64B142DDD9C000EF22D /* FMResultSet.m */; };
+		3555B659142DDDF1000EF22D /* TbTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B658142DDDF1000EF22D /* TbTodo.m */; };
+		3555B65C142DDEF9000EF22D /* TbTodoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555B65B142DDEF9000EF22D /* TbTodoDao.m */; };
+		3555B868142ED350000EF22D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3555B867142ED350000EF22D /* icon.png */; };
+		3555B897142EDC5E000EF22D /* todo.db in Resources */ = {isa = PBXBuildFile; fileRef = 3555B896142EDC5E000EF22D /* todo.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerSeminarDBSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerSeminarDBSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SummerSeminarDBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerSeminarDBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SummerSeminarDBSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerSeminarDBSample_Prefix.pch; sourceTree = "<group>"; };
+		3509D9E4142DD595001B0C02 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3509D9E5142DD595001B0C02 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3509D9EA142DD60F001B0C02 /* ListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
+		3509DA14142DD95E001B0C02 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3555B631142DDBDD000EF22D /* AddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		3555B633142DDBEA000EF22D /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		3555B634142DDBEA000EF22D /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		3555B646142DDD9C000EF22D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3555B647142DDD9C000EF22D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3555B648142DDD9C000EF22D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3555B649142DDD9C000EF22D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3555B64A142DDD9C000EF22D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3555B64B142DDD9C000EF22D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3555B657142DDDF1000EF22D /* TbTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbTodo.h; sourceTree = "<group>"; };
+		3555B658142DDDF1000EF22D /* TbTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbTodo.m; sourceTree = "<group>"; };
+		3555B65A142DDEF9000EF22D /* TbTodoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbTodoDao.h; sourceTree = "<group>"; };
+		3555B65B142DDEF9000EF22D /* TbTodoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbTodoDao.m; sourceTree = "<group>"; };
+		3555B867142ED350000EF22D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3555B896142EDC5E000EF22D /* todo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo.db; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SummerSeminarDBSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SummerSeminarDBSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				3509DA15142DD95E001B0C02 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3555B652142DDDCC000EF22D /* Controller */,
+				3555B63E142DDD66000EF22D /* Dto */,
+				3555B64F142DDDB0000EF22D /* Dao */,
+				3555B63F142DDD70000EF22D /* FMDB */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SummerSeminarDBSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SummerSeminarDBSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3555B896142EDC5E000EF22D /* todo.db */,
+				3555B867142ED350000EF22D /* icon.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SummerSeminarDBSample-Info.plist */,
+				3509D9EA142DD60F001B0C02 /* ListView.xib */,
+				3555B631142DDBDD000EF22D /* AddView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				3509DA14142DD95E001B0C02 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3555B63E142DDD66000EF22D /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				3555B657142DDDF1000EF22D /* TbTodo.h */,
+				3555B658142DDDF1000EF22D /* TbTodo.m */,
+			);
+			name = Dto;
+			sourceTree = "<group>";
+		};
+		3555B63F142DDD70000EF22D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3555B646142DDD9C000EF22D /* FMDatabase.h */,
+				3555B647142DDD9C000EF22D /* FMDatabase.m */,
+				3555B648142DDD9C000EF22D /* FMDatabaseAdditions.h */,
+				3555B649142DDD9C000EF22D /* FMDatabaseAdditions.m */,
+				3555B64A142DDD9C000EF22D /* FMResultSet.h */,
+				3555B64B142DDD9C000EF22D /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		3555B64F142DDDB0000EF22D /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				3555B65A142DDEF9000EF22D /* TbTodoDao.h */,
+				3555B65B142DDEF9000EF22D /* TbTodoDao.m */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		3555B652142DDDCC000EF22D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.m */,
+				3509D9E4142DD595001B0C02 /* ListViewController.h */,
+				3509D9E5142DD595001B0C02 /* ListViewController.m */,
+				3555B633142DDBEA000EF22D /* AddViewController.h */,
+				3555B634142DDBEA000EF22D /* AddViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SummerSeminarDBSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SummerSeminarDBSample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerSeminarDBSample;
+			productName = SummerSeminarDBSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* SummerSeminarDBSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SummerSeminarDBSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SummerSeminarDBSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				3509D9EB142DD60F001B0C02 /* ListView.xib in Resources */,
+				3555B632142DDBDD000EF22D /* AddView.xib in Resources */,
+				3555B868142ED350000EF22D /* icon.png in Resources */,
+				3555B897142EDC5E000EF22D /* todo.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SummerSeminarDBSampleAppDelegate.m in Sources */,
+				3509D9E6142DD595001B0C02 /* ListViewController.m in Sources */,
+				3555B635142DDBEA000EF22D /* AddViewController.m in Sources */,
+				3555B64C142DDD9C000EF22D /* FMDatabase.m in Sources */,
+				3555B64D142DDD9C000EF22D /* FMDatabaseAdditions.m in Sources */,
+				3555B64E142DDD9C000EF22D /* FMResultSet.m in Sources */,
+				3555B659142DDDF1000EF22D /* TbTodo.m in Sources */,
+				3555B65C142DDEF9000EF22D /* TbTodoDao.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SummerSeminarDBSample_Prefix.pch;
+				INFOPLIST_FILE = "SummerSeminarDBSample-Info.plist";
+				PRODUCT_NAME = SummerSeminarDBSample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SummerSeminarDBSample_Prefix.pch;
+				INFOPLIST_FILE = "SummerSeminarDBSample-Info.plist";
+				PRODUCT_NAME = SummerSeminarDBSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SummerSeminarDBSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SummerSeminarDBSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
